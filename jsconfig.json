@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@c/*": ["src/common/*"],
+      "@m/*": ["src/pages/mobile/*"],
+      "@p/*": ["src/pages/pc/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
